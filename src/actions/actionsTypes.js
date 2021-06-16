@@ -1,1 +1,2 @@
 export const ADD_POKEMON = 'ADD_POKEMON'
+export const CREATE_POKEMON = 'CREATE_POKEMON'  

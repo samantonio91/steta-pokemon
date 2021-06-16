@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Pokedex = ({ name, abilities, weight, pokemonImage, addNewPokemon, state }) => {
 
   return (
-    <div>
+    <div className="pokemonCard">
       <h1>Pokedex</h1>
       <h2>Pokemon name: {name}</h2>
       <p>Weight: {weight}</p>
